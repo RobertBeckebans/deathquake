@@ -8,7 +8,7 @@ from django.core.serializers.json import DjangoJSONEncoder
 from django.views.generic import View, TemplateView
 from django.http import HttpResponse
 
-from stats.models import Game, Frag, Player, Scoreboard
+from stats.models import Game, Frag, Player, Scoreboard, Log
 
 
 def score_14(score):
@@ -61,9 +61,15 @@ class ScoreboardView(View):
         self.assign_trophies()
         self.round_numbers()
 
+        log = ''
+        last_log = Log.objects.last()
+        if last_log:
+            log = last_log.message
+
         return HttpResponse(json.dumps((
             {"status": "success"},
             {"data": self.scoreboard},
+            {"log": log},
         ),
             cls=DjangoJSONEncoder))
 

@@ -41,6 +41,7 @@ $(document).ready(
         $.getJSON('scoreboard.json', function (rootNode) {
             var status = rootNode[0].status;
             var data = rootNode[1].data;
+            var log = rootNode[2].log;
             if (status == 'success') {
                 var numberOfPlayers = 0;
                 if (!isScoreboardCreated) createScoreboard();
@@ -51,6 +52,10 @@ $(document).ready(
                 removeExtraRows(numberOfPlayers);
             } else if (status == 'failed') {
                 $('#scoreboard').html(status);
+            }
+
+            if (log) {
+                $("#log").html(log);
             }
         });
     }, 1000)

@@ -25,3 +25,7 @@ class Frag(models.Model):
     attacker = models.ForeignKey(Player, related_name="frag_attacker")
     victim = models.ForeignKey(Player, related_name="frag_victim")
     weapon = models.CharField(max_length=255)
+
+
+class Log(models.Model):
+    message = models.CharField(max_length=255)

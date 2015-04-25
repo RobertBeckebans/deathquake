@@ -5,6 +5,8 @@ import random
 
 from django.core.management.base import BaseCommand
 
+from stats.models import Log
+
 # TODO: Consider moving into deathquake/settings.py
 LONG_BREAK_EACH_N_ROUND = 4
 SMALL_BREAK_MINUTES = 2
@@ -89,6 +91,7 @@ class Command(BaseCommand):
 
     def say(self, message):
         self.send_rcon('"' + self.pad_with_spaces(message) + '"')
+        Log(message=message).save()
 
     def map_restart(self):
         self.send_rcon('map_restart')

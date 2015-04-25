@@ -1,0 +1,101 @@
+td.rank {
+    text-align: center;
+}
+
+th.highest_kill_streak, th.railgun_kills, th.rocket_kills, th.fall_deaths, th.gauntlet_kills, th.won_games, th.kills,
+th.deaths, th.kill_death_ratio, th.rank, th.rank_difference, td.highest_kill_streak, td.railgun_kills, td.rocket_kills,
+td.fall_deaths, td.gauntlet_kills, td.won_games, td.kills, td.deaths, td.kill_death_ratio, td.rank_difference {
+    text-align: center;
+}
+
+.kills {
+    border-left: 1px black dotted;
+}
+
+.trophy_railgun_kills, .trophy_rocket_kills, .trophy_gauntlet_kills, .trophy_won_games, .trophy_fall_deaths,
+.trophy_highest_kill_streak, .trophy_kills, .trophy_deaths, .trophy_kill_death_ratio {
+    color: white;
+    background-color: #000000;
+    font-weight: bolder;
+}
+
+.negative_rank_difference, .positive_rank_difference {
+    color: white;
+    font-weight: bold;
+}
+
+.negative_rank_difference {
+    background-color: #000000;
+}
+
+.positive_rank_difference {
+    background-color: #FF0000;
+}
+
+.trophy_winner {
+    font-weight: bolder;
+    background-color: #FF0000;
+    color: white;
+    zoom: 1.5;
+}
+
+.trophy_won_last_game {
+    font-weight: bolder;
+    background-color: #FF0000;
+    color: white;
+}
+
+td.score {
+    font-weight: bold;
+}
+
+#legend {
+    text-align: center;
+    -webkit-filter: opacity(0.75);
+
+}
+
+#legend p {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.icon-kills {
+    background-image: url("../img/icons/kill.png");
+}
+
+.icon-deaths {
+    background-image: url("../img/icons/death.png");
+}
+
+.icon-rocket-kills {
+    background-image: url("../img/icons/rocket_kills.png");
+}
+
+.icon-railgun-kills {
+    background-image: url("../img/icons/railgun_kills.png");
+}
+
+.icon-gauntlet-kills {
+    background-image: url("../img/icons/gauntlet_kills.png");
+}
+
+.icon-highest-kill-streak {
+    background-image: url("../img/icons/highest_kill_streak.png");
+}
+
+.icon-fall-deaths {
+    background-image: url("../img/icons/fall_deaths.png");
+}
+
+.icon-won-rounds {
+    background-image: url("../img/icons/trophy.png");
+}

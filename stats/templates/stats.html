@@ -1,0 +1,45 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deathquake</title>
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}"/>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/stats.css' %}" rel="stylesheet" type="text/css">
+    <script src="{% static 'js/jquery-1.11.2.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/stats.js' %}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <h1>
+                <img src="{% static 'img/logo.png' %}" height="50px" width="47px" style="display: block-inline;">
+                Deathquake
+            </h1>
+        </div>
+    </div>
+
+    <div id="scoreboard"></div>
+
+    <div id="legend">
+        <p><span class="icon icon-kills"></span> Kills</p>
+
+        <p><span class="icon icon-deaths"></span> Deaths</p>
+
+        <p><span class="icon icon-rocket-kills"></span> Rocket Kills</p>
+
+        <p><span class="icon icon-railgun-kills"></span> Railgun Kills</p>
+
+        <p><span class="icon icon-gauntlet-kills"></span> Gauntlet Kills</p>
+
+        <p><span class="icon icon-highest-kill-streak"></span> Highest Kill Streak</p>
+
+        <p><span class="icon icon-fall-deaths"></span> Fall Deaths</p>
+
+        <p><span class="icon icon-won-rounds"></span> Won Rounds</p>
+    </div>
+</div>
+</body>
+</html>

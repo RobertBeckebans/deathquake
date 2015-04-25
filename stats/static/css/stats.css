@@ -49,6 +49,10 @@ td.score {
     font-weight: bold;
 }
 
+td.score_14 {
+    white-space: nowrap;
+}
+
 #legend {
     text-align: center;
     -webkit-filter: opacity(0.75);

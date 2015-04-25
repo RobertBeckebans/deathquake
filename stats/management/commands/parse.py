@@ -1,5 +1,7 @@
 from collections import defaultdict
 import re
+import time
+
 from django.core.management import call_command
 from django.core.management.base import BaseCommand
 
@@ -28,6 +30,7 @@ class Command(BaseCommand):
             line = self.logfile.readline()
             if not line:
                 self.logfile.seek(previous_location)
+                time.sleep(1)
             # Sometimes self.logfile.readline() retrieves a half line from the logfile and this error is fatal to the
             # underlying logic. We therefore wait till we have a newline at the end before parsing it.
             elif not line.endswith('\n'):

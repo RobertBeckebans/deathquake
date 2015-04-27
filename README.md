@@ -68,6 +68,7 @@ It's a good idea to take a look at the variables declared at the top of `stats/m
 ##Notes
 * The game is usually played till a player reaches score 16. This is defined through the variable `DEATHQUAKE_WINNER_SCORE` in `deathquake/settings.py`.
 * Remember to set the timelimit to 99 when warming up. The parser picks up every single game that ends with a scoreboard!
+* It's possible to play towards a **fraglimit**, however it's my experience that playing towards a **timelimit** works best.
 
 ###Configuration file for the server
 Here is my `~/.q3a/base3/server.cfg` which I execute with `\exec server` after starting the server.

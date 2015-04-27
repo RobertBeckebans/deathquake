@@ -30,9 +30,11 @@ https://help.ubuntu.com/community/PostgreSQL#Installation
 ###Django Project
 Before configuring the django project I strongly recommend that you set up and use a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
-Install the required packages with `pip install -r requirements.txt`
+Install project requirements.
 
-Edit `deathquake/settings.py` to reflect your database settings.
+`pip install -r requirements.txt`
+
+Edit `deathquake/settings.py` to reflect your database settings and run migrate.
 
 `python manage.py migrate`
 
@@ -40,7 +42,7 @@ Usage
 =====
 
 ###Start ioquake3
-Start ioquake3 with **sudo** and pipe `stderr` into a logfile:
+Start ioquake3 with **sudo** and pipe `stderr` into a logfile.
 
 `sudo ioquake3 &> game.log`
 
@@ -70,7 +72,7 @@ It's a good idea to take a look at the variables declared at the top of `stats/m
 * Remember to set the timelimit to 99 when warming up. The parser picks up every single game that ends with a scoreboard!
 * It's possible to play towards a **fraglimit**, however it's my experience that playing towards a **timelimit** works best.
 
-###Configuration file for the server
+###Server configuration
 Here is my `~/.q3a/base3/server.cfg` which I execute with `\exec server` after starting the server.
 
 ```

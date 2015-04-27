@@ -60,6 +60,11 @@ We can now start the Django webserver.
 
 Your scoreboard should now be available at `http://127.0.0.1:8000`. Happy fragging!
 
+###Game master (Optional)
+The game master command `python manage.py gamemaster` automates map change, warmup periods and breaks. This is _optional_, but remember this, managing a Deathquake game while participating is **HARD**.
+
+It's a good idea to take a look at the variables declared at the top of `stats/management/commands/gamemaster.py` before starting it.
+
 ##Notes
 * The game is usually played till a player reaches score 16. This is defined through the variable `DEATHQUAKE_WINNER_SCORE` in `deathquake/settings.py`.
 * Remember to set the timelimit to 99 when warming up. The parser picks up every single game that ends with a scoreboard!

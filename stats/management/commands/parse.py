@@ -13,6 +13,9 @@ WARNING_PREFIX = '\033[095m(WARNING)\033[0m'
 class Command(BaseCommand):
     help = 'Starts parsing and monitoring a Quake 3 log file'
 
+    def add_arguments(self, parser):
+        parser.add_argument('file', nargs='+', type=str)
+
     def __init__(self):
         super(Command, self).__init__()
         call_command('truncate')
@@ -24,7 +27,7 @@ class Command(BaseCommand):
         self.receiving_scores = False
 
     def handle(self, *args, **options):
-        self.logfile = open(args[0])
+        self.logfile = open(options['file'][0])
         while 1:
             previous_location = self.logfile.tell()
             line = self.logfile.readline()

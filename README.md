@@ -24,9 +24,6 @@ The winner is the person who can drink the most during the game duration, becaus
 ###Install ioquake3
 http://ioquake3.org/get-it/
 
-###Install PostgreSQL (SQLite is too slow)
-https://help.ubuntu.com/community/PostgreSQL#Installation
-
 ###Django Project
 Before configuring the django project I strongly recommend that you set up and use a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
@@ -34,7 +31,32 @@ Install project requirements.
 
 `pip install -r requirements.txt`
 
-Edit `deathquake/settings.py` to reflect your database settings and run migrate.
+####Install PostgreSQL (Optional but recommended)
+
+If you wish to skip this step, jump to **Migrate**.
+
+https://help.ubuntu.com/community/PostgreSQL#Installation
+
+Replace SQLite with PostgreSQL in `deathquake/settings.py`:
+
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'quake',
+        'USER': 'postgres',
+        'PASSWORD': 'Hunter2',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+```
+
+Next, install the PostgreSQL adapter psycopg2.
+
+`pip install psycopg2`
+
+#### Migrate
 
 `python manage.py migrate`
 

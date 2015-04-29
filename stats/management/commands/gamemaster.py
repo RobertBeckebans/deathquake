@@ -22,7 +22,7 @@ SERVER_IP = '127.0.0.1'
 RCON_PASSWORD = os.environ['rcon']
 RCON_PREFIX = 'rcon "%s" ' % RCON_PASSWORD
 CONSOLE_RCON_PREFIX = "\033[93m(RCON)\033[0m"
-PACKAGE_PREFIX = "\xff\xff\xff\xff"
+PACKAGE_PREFIX = b'\xff\xff\xff\xff'
 
 
 class RandomMaps():
@@ -85,7 +85,7 @@ class Command(BaseCommand):
             self.total_games += 1
 
     def send_rcon(self, command):
-        self.sock.sendall('%s%s%s\n' % (PACKAGE_PREFIX, RCON_PREFIX, command))
+        self.sock.sendall(PACKAGE_PREFIX + bytes(RCON_PREFIX + command + '\n', 'utf-8'))
         print(CONSOLE_RCON_PREFIX + ' ' + command)
         time.sleep(1)
 

@@ -111,7 +111,7 @@ class Command(BaseCommand):
         if search is None:
             return False
         else:
-            print ('%s IGNORED LINE: %s' % (WARNING_PREFIX, line.replace('\n', '')))
+            print(('%s IGNORED LINE: %s' % (WARNING_PREFIX, line.replace('\n', ''))))
             return True
 
 
@@ -122,7 +122,7 @@ class Database:
 
     def add_scoreboard(self, scoreboard, game_id):
         scores = []
-        for key, value in scoreboard.items():
+        for key, value in list(scoreboard.items()):
             player = self.database_players[key]
             score = value
             scores.append(Scoreboard(player_id=player.id, score=score, game_id=game_id))
@@ -141,7 +141,7 @@ class Database:
 
     def add_new_game(self, game_id, parser_scoreboard):
         Game(id=game_id, fraglimit=parser_scoreboard.get_fraglimit()).save()
-        print "%s: added game (%s, %s)" % (self.database_prefix, game_id, parser_scoreboard.get_fraglimit())
+        print("%s: added game (%s, %s)" % (self.database_prefix, game_id, parser_scoreboard.get_fraglimit()))
         self.add_scoreboard(parser_scoreboard.get_scoreboard(), game_id)
 
     def truncate(self):
@@ -150,20 +150,20 @@ class Database:
         Frag.objects.all().delete()
         Scoreboard.objects.all().delete()
         Log.objects.all().delete()
-        print "%s: Truncated tables: games, players, scoreboards" % self.database_prefix
+        print("%s: Truncated tables: games, players, scoreboards" % self.database_prefix)
 
     def add_frag(self, game_id, attacker_id, victim_id, weapon):
         game = Game.objects.get(id=game_id)
         attacker = self.database_players[attacker_id]
         victim = self.database_players[victim_id]
         Frag(game=game, attacker=attacker, victim=victim, weapon=weapon).save()
-        print "%s: added frag (game.id=%s, attacker=%s, victim=%s, weapon=%s)" % \
-              (self.database_prefix, game.id, attacker, victim, weapon)
+        print("%s: added frag (game.id=%s, attacker=%s, victim=%s, weapon=%s)" % \
+              (self.database_prefix, game.id, attacker, victim, weapon))
 
     def delete_warmup_frags(self, gameid):
         frags = Frag.objects.filter(game__id=gameid)
         frags.delete()
-        print "%s: deleted frags for warmup game with game.id=%s" % (self.database_prefix, gameid)
+        print("%s: deleted frags for warmup game with game.id=%s" % (self.database_prefix, gameid))
 
 
 class ParserScoreboard:
@@ -172,7 +172,7 @@ class ParserScoreboard:
 
     def get_fraglimit(self):
         result = 0
-        for key, value in self.scoreboard.items():
+        for key, value in list(self.scoreboard.items()):
             result = max(value, result)
         return result
 

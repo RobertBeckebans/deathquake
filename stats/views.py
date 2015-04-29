@@ -185,7 +185,7 @@ class ScoreboardView(View):
         score_dictionary = dict()
         for player in self.scoreboard:
             score_dictionary[player] = self.scoreboard[player]['score']
-        sorted_score_list = sorted(score_dictionary.items(), key=operator.itemgetter(1), reverse=True)
+        sorted_score_list = sorted(list(score_dictionary.items()), key=operator.itemgetter(1), reverse=True)
         for counter, score in enumerate(sorted_score_list):
             self.scoreboard[score[0]]['rank'] = counter + 1
 
@@ -194,7 +194,7 @@ class ScoreboardView(View):
             score_dictionary = dict()
             for player in self.scoreboard:
                 score_dictionary[player] = self.scoreboard[player]['previous_score']
-            sorted_score_list = sorted(score_dictionary.items(), key=operator.itemgetter(1), reverse=True)
+            sorted_score_list = sorted(list(score_dictionary.items()), key=operator.itemgetter(1), reverse=True)
             for counter, score in enumerate(sorted_score_list):
                 self.scoreboard[score[0]]['previous_rank'] = counter + 1
 

@@ -1,0 +1,1049 @@
+hutdownGame:
+------------------------------------------------------------
+VM_Restart()
+Loading vm file vm/qagame.qvm...
+------- Game Initialization -------
+gamename: baseq3
+gamedate: Sep 30 2002
+------------------------------------------------------------
+InitGame: \g_gametype\0\sv_hostname\Doedsquake Q2 2014\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Stroggs\g_blueTeam\Pagans\dmflags\0\fraglimit\0\timelimit\99\sv_maxclients\8\capturelimit\0\g_maxGameClients\0\version\ioq3 1.36 linux-x86_64 Apr 12 2009\protocol\68\mapname\q3dm14\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0
+4 teams with 8 entities
+23 items registered
+-----------------------------------
+32 bots parsed
+35 arenas parsed
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/anarki_c.c
+ClientConnect: 0
+ClientUserinfoChanged: 0 n\^1A^2n^3a^4r^5k^6i\t\0\model\anarki\hmodel\anarki\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "^1A^2n^3a^4r^5k^6i^7 entered the game\n"
+ClientBegin: 0
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/biker_c.c
+ClientConnect: 1
+ClientUserinfoChanged: 1 n\Biker\t\0\model\biker\hmodel\biker\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Biker^7 entered the game\n"
+ClientBegin: 1
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/lucy_c.c
+ClientConnect: 2
+ClientUserinfoChanged: 2 n\Lucy\t\0\model\lucy\hmodel\lucy\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Lucy^7 entered the game\n"
+ClientBegin: 2
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/patriot_c.c
+ClientConnect: 3
+ClientUserinfoChanged: 3 n\Patriot\t\0\model\razor/patriot\hmodel\razor/patriot\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Patriot^7 entered the game\n"
+ClientBegin: 3
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/tankjr_c.c
+ClientConnect: 4
+ClientUserinfoChanged: 4 n\TankJr\t\0\model\tankjr\hmodel\tankjr\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "TankJr^7 entered the game\n"
+ClientBegin: 4
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/stripe_c.c
+ClientConnect: 5
+ClientUserinfoChanged: 5 n\Stripe\t\0\model\grunt/stripe\hmodel\grunt/stripe\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Stripe^7 entered the game\n"
+ClientBegin: 5
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/razor_c.c
+ClientConnect: 6
+ClientUserinfoChanged: 6 n\Razor\t\0\model\razor\hmodel\razor\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Razor^7 entered the game\n"
+ClientBegin: 6
+loaded cached skill 4.000000 from bots/default_c.c
+loaded cached skill 4.000000 from bots/keel_c.c
+ClientConnect: 7
+ClientUserinfoChanged: 7 n\Keel\t\0\model\keel\hmodel\keel\c1\4\c2\5\hc\100\w\0\l\0\skill\    4.00\tt\0\tl\0
+broadcast: print "Keel^7 entered the game\n"
+ClientBegin: 7
+Rcon from 127.0.0.1:
+timelimit
+broadcast: print "Server: timelimit changed to 8\n"
+Item: 5 ammo_bullets
+Item: 4 ammo_cells
+Item: 0 item_armor_shard
+Item: 0 item_armor_shard
+Item: 1 weapon_plasmagun
+Item: 0 item_armor_shard
+Item: 0 item_armor_shard
+Item: 2 ammo_rockets
+Item: 2 ammo_rockets
+say: Patriot: Use it or lose it baby.
+Patriot^7: Use it or lose it baby.
+Item: 4 holdable_teleporter
+Item: 3 ammo_shells
+Item: 3 ammo_bullets
+Item: 5 item_armor_combat
+Item: 0 weapon_shotgun
+Item: 7 item_health_large
+Kill: 7 6 3: Keel killed Razor by MOD_MACHINEGUN
+Item: 3 ammo_rockets
+Item: 4 item_health_large
+Item: 7 item_health_large
+Item: 4 item_armor_shard
+Kill: 2 5 3: Lucy killed Stripe by MOD_MACHINEGUN
+say: Razor: Wow, was that the new and improved Machinegun?
+Razor^7: Wow, was that the new and improved Machinegun?
+Item: 6 ammo_lightning
+say: Stripe: Consider yourself lucky, lucy. You just offed a bonafide war hero.
+Stripe^7: Consider yourself lucky, lucy. You just offed a bonafide war hero.
+Item: 6 weapon_rocketlauncher
+Item: 4 weapon_shotgun
+Item: 7 item_health
+Item: 3 item_armor_combat
+say: Biker: What don't you understand?
+Biker^7: What don't you understand?
+Kill: 6 0 6: Razor killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET
+Kill: 6 6 7: Razor killed Razor by MOD_ROCKET_SPLASH
+Item: 4 item_health_large
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Kill: 1 5 8: Biker killed Stripe by MOD_PLASMA
+Item: 4 ammo_bfg
+Item: 2 weapon_rocketlauncher
+Kill: 3 7 3: Patriot killed Keel by MOD_MACHINEGUN
+Item: 2 weapon_shotgun
+Item: 0 item_armor_combat
+Item: 1 item_health_large
+Item: 2 weapon_rocketlauncher
+Item: 5 item_armor_body
+say: Keel: You are a testament. Courage and heart can overcome the machine.
+Keel^7: You are a testament. Courage and heart can overcome the machine.
+Item: 6 ammo_slugs
+Item: 0 weapon_shotgun
+Item: 1 ammo_bullets
+Kill: 4 3 1: TankJr killed Patriot by MOD_SHOTGUN
+Item: 7 weapon_shotgun
+Item: 6 item_health
+Item: 6 item_health
+Kill: 2 4 6: Lucy killed TankJr by MOD_ROCKET
+Kill: 2 2 7: Lucy killed Lucy by MOD_ROCKET_SPLASH
+Kill: 5 6 3: Stripe killed Razor by MOD_MACHINEGUN
+Item: 1 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Kill: 6 1 3: Razor killed Biker by MOD_MACHINEGUN
+Item: 3 weapon_plasmagun
+Item: 0 item_health_large
+Kill: 2 7 3: Lucy killed Keel by MOD_MACHINEGUN
+Item: 6 weapon_rocketlauncher
+Item: 2 weapon_shotgun
+Kill: 6 2 7: Razor killed Lucy by MOD_ROCKET_SPLASH
+Item: 0 item_armor_combat
+Item: 6 weapon_shotgun
+say: Lucy: Tough-guy, you are going to be so dead now.
+Lucy^7: Tough-guy, you are going to be so dead now.
+Item: 7 weapon_shotgun
+Item: 2 weapon_lightning
+Item: 6 item_health_mega
+Item: 0 weapon_rocketlauncher
+say: Biker: Where are ya hiding little rabbit?
+Biker^7: Where are ya hiding little rabbit?
+Kill: 6 3 7: Razor killed Patriot by MOD_ROCKET_SPLASH
+Item: 1 weapon_plasmagun
+Kill: 2 7 11: Lucy killed Keel by MOD_LIGHTNING
+Kill: 0 5 6: ^1A^2n^3a^4r^5k^6i killed Stripe by MOD_ROCKET
+say: Patriot: OK razor let's dance one more time!
+Patriot^7: OK razor let's dance one more time!
+say: Razor: Well, I'm waiting for an apology, Patriot.
+Razor^7: Well, I'm waiting for an apology, Patriot.
+Item: 0 weapon_plasmagun
+Kill: 6 0 7: Razor killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 2 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+Kill: 2 3 11: Lucy killed Patriot by MOD_LIGHTNING
+Kill: 7 6 1: Keel killed Razor by MOD_SHOTGUN
+say: ^1A^2n^3a^4r^5k^6i: Welcome to Generation Ex.
+^1A^2n^3a^4r^5k^6i^7: Welcome to Generation Ex.
+Item: 5 weapon_shotgun
+Item: 7 ammo_cells
+Kill: 1 5 8: Biker killed Stripe by MOD_PLASMA
+Item: 2 weapon_shotgun
+Item: 6 item_armor_body
+Kill: 2 0 1: Lucy killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 2 item_health_large
+Item: 3 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+Kill: 7 4 1: Keel killed TankJr by MOD_SHOTGUN
+Item: 7 weapon_rocketlauncher
+Item: 4 item_armor_combat
+Kill: 1 2 8: Biker killed Lucy by MOD_PLASMA
+Item: 0 weapon_plasmagun
+Item: 1 ammo_bullets
+Kill: 7 7 7: Keel killed Keel by MOD_ROCKET_SPLASH
+Item: 2 weapon_lightning
+Item: 4 weapon_shotgun
+Item: 1 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 2 ammo_bullets
+Kill: 0 7 8: ^1A^2n^3a^4r^5k^6i killed Keel by MOD_PLASMA
+Item: 3 ammo_bfg
+Item: 2 weapon_shotgun
+Item: 4 ammo_slugs
+Item: 1 item_health_large
+Item: 3 item_armor_combat
+Kill: 2 4 11: Lucy killed TankJr by MOD_LIGHTNING
+Kill: 1022 2 22: <world> killed Lucy by MOD_TRIGGER_HURT
+say: TankJr: Biological units can't compete with Ironsides.
+TankJr^7: Biological units can't compete with Ironsides.
+Kill: 3 6 7: Patriot killed Razor by MOD_ROCKET_SPLASH
+say: Lucy: Dang state trooper hand-me-downs.
+Lucy^7: Dang state trooper hand-me-downs.
+say: Razor: The road is yours now, patriot. Use it well.
+Razor^7: The road is yours now, patriot. Use it well.
+Item: 5 item_health
+Kill: 3 1 6: Patriot killed Biker by MOD_ROCKET
+Item: 7 weapon_shotgun
+Item: 5 weapon_shotgun
+Item: 2 ammo_bullets
+Kill: 0 5 8: ^1A^2n^3a^4r^5k^6i killed Stripe by MOD_PLASMA
+Item: 2 ammo_bullets
+Kill: 4 3 3: TankJr killed Patriot by MOD_MACHINEGUN
+Item: 0 weapon_shotgun
+Kill: 3 4 7: Patriot killed TankJr by MOD_ROCKET_SPLASH
+Item: 1 item_armor_shard
+Item: 1 item_armor_shard
+Kill: 1022 0 22: <world> killed ^1A^2n^3a^4r^5k^6i by MOD_TRIGGER_HURT
+Item: 1 item_armor_shard
+Item: 1 item_armor_shard
+say: Stripe: Nice frag.
+Stripe^7: Nice frag.
+Item: 2 item_quad
+Item: 7 ammo_bullets
+say: Patriot: Providence must be smiling on you, tankjr.
+Patriot^7: Providence must be smiling on you, tankjr.
+say: ^1A^2n^3a^4r^5k^6i: Are you, like, pretending to be a statue, biker? Good disguise!
+^1A^2n^3a^4r^5k^6i^7: Are you, like, pretending to be a statue, biker? Good disguise!
+Item: 3 weapon_lightning
+Kill: 7 4 1: Keel killed TankJr by MOD_SHOTGUN
+Item: 2 item_armor_body
+Item: 1 ammo_lightning
+Item: 1 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 4 ammo_rockets
+Item: 4 ammo_shells
+Item: 4 ammo_slugs
+Item: 6 weapon_shotgun
+Kill: 3 6 11: Patriot killed Razor by MOD_LIGHTNING
+Item: 5 item_health_mega
+Item: 2 weapon_plasmagun
+Item: 7 item_health_large
+Item: 3 item_health
+Item: 3 weapon_shotgun
+Item: 3 weapon_shotgun
+Item: 3 weapon_shotgun
+Kill: 2 4 8: Lucy killed TankJr by MOD_PLASMA
+Item: 7 item_health_large
+Item: 4 weapon_rocketlauncher
+Item: 5 item_armor_combat
+Kill: 1 7 1: Biker killed Keel by MOD_SHOTGUN
+Item: 0 item_health_large
+Item: 6 ammo_rockets
+say: Keel: A toast to biker. Well done.
+Keel^7: A toast to biker. Well done.
+Kill: 2 3 8: Lucy killed Patriot by MOD_PLASMA
+Item: 7 item_armor_shard
+Item: 6 weapon_lightning
+Item: 0 item_health
+Item: 0 item_health
+Kill: 2 6 9: Lucy killed Razor by MOD_PLASMA_SPLASH
+Item: 7 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 0 item_armor_combat
+Item: 0 ammo_rockets
+Item: 2 weapon_lightning
+Item: 0 ammo_rockets
+say: Razor: The road is yours now, lucy. Use it well.
+Razor^7: The road is yours now, lucy. Use it well.
+Kill: 4 5 7: TankJr killed Stripe by MOD_ROCKET_SPLASH
+Kill: 7 3 1: Keel killed Patriot by MOD_SHOTGUN
+say: Stripe: Just get my name right on the tombstone, geek.
+Stripe^7: Just get my name right on the tombstone, geek.
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 4 ammo_bullets
+say: Patriot: Providence must be smiling on you, keel.
+Patriot^7: Providence must be smiling on you, keel.
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+Item: 3 weapon_lightning
+Item: 1 item_health_large
+Item: 0 weapon_rocketlauncher
+Kill: 6 4 3: Razor killed TankJr by MOD_MACHINEGUN
+Item: 3 item_armor_combat
+say: Lucy: You want therapy? Therapy this!
+Lucy^7: You want therapy? Therapy this!
+Item: 5 weapon_shotgun
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 2 7 11: Lucy killed Keel by MOD_LIGHTNING
+Item: 5 ammo_bfg
+Item: 1 ammo_slugs
+Item: 4 ammo_cells
+Item: 2 weapon_shotgun
+Item: 3 weapon_shotgun
+Item: 4 holdable_teleporter
+Item: 6 item_health_large
+Kill: 3 1 11: Patriot killed Biker by MOD_LIGHTNING
+say: Lucy: Who gave you permission to dress that way, anarki?
+Lucy^7: Who gave you permission to dress that way, anarki?
+Kill: 0 2 7: ^1A^2n^3a^4r^5k^6i killed Lucy by MOD_ROCKET_SPLASH
+Item: 0 weapon_lightning
+Kill: 7 5 3: Keel killed Stripe by MOD_MACHINEGUN
+Item: 4 weapon_shotgun
+Kill: 3 6 11: Patriot killed Razor by MOD_LIGHTNING
+Kill: 4 7 1: TankJr killed Keel by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Item: 2 ammo_bullets
+Item: 4 item_armor_combat
+Item: 5 ammo_bullets
+Item: 3 item_health
+Kill: 2 4 6: Lucy killed TankJr by MOD_ROCKET
+Kill: 0 3 6: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_ROCKET
+Item: 0 item_health
+Kill: 7 2 3: Keel killed Lucy by MOD_MACHINEGUN
+Item: 7 weapon_rocketlauncher
+Item: 5 item_armor_combat
+Item: 7 weapon_shotgun
+Item: 0 weapon_shotgun
+Item: 3 weapon_plasmagun
+Kill: 7 0 7: Keel killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Kill: 0 7 7: ^1A^2n^3a^4r^5k^6i killed Keel by MOD_ROCKET_SPLASH
+Item: 1 item_health_mega
+Item: 7 ammo_lightning
+say: ^1A^2n^3a^4r^5k^6i: Chaos theory in action, keel.
+^1A^2n^3a^4r^5k^6i^7: Chaos theory in action, keel.
+Kill: 1 6 3: Biker killed Razor by MOD_MACHINEGUN
+Item: 0 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Item: 3 weapon_rocketlauncher
+Item: 5 item_health
+Item: 5 item_health
+Kill: 0 4 1: ^1A^2n^3a^4r^5k^6i killed TankJr by MOD_SHOTGUN
+say: Razor: ... and the nominee for best shot is Fat-man.
+Razor^7: ... and the nominee for best shot is Fat-man.
+Item: 6 ammo_shells
+say: TankJr: I give as I get, llama ... and more.
+TankJr^7: I give as I get, llama ... and more.
+Item: 3 item_health_large
+say: Stripe: Ow ... I bumped my toe on something. Oh, it was your head.
+Stripe^7: Ow ... I bumped my toe on something. Oh, it was your head.
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 5 ammo_rockets
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Kill: 3 6 8: Patriot killed Razor by MOD_PLASMA
+Item: 3 weapon_shotgun
+Item: 4 weapon_shotgun
+Kill: 5 3 3: Stripe killed Patriot by MOD_MACHINEGUN
+Kill: 0 5 1: ^1A^2n^3a^4r^5k^6i killed Stripe by MOD_SHOTGUN
+Kill: 1 2 3: Biker killed Lucy by MOD_MACHINEGUN
+Item: 0 weapon_plasmagun
+Item: 3 ammo_rockets
+Item: 3 ammo_rockets
+Item: 4 item_armor_combat
+Item: 1 item_health_large
+Item: 7 ammo_bullets
+Kill: 4 6 1: TankJr killed Razor by MOD_SHOTGUN
+Item: 6 weapon_lightning
+Item: 0 ammo_slugs
+Item: 7 item_health_large
+Kill: 2 7 3: Lucy killed Keel by MOD_MACHINEGUN
+Kill: 0 3 8: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_PLASMA
+say: Keel: Very kwl
+Keel^7: Very kwl
+Item: 5 weapon_railgun
+Item: 6 weapon_shotgun
+Kill: 2 4 3: Lucy killed TankJr by MOD_MACHINEGUN
+Item: 2 weapon_shotgun
+Kill: 6 0 11: Razor killed ^1A^2n^3a^4r^5k^6i by MOD_LIGHTNING
+Item: 6 weapon_plasmagun
+Kill: 7 1 3: Keel killed Biker by MOD_MACHINEGUN
+Item: 6 ammo_bullets
+Item: 6 ammo_bullets
+Item: 3 ammo_bullets
+say: Biker: they are going to be picking up pieces of you in the next county.
+Biker^7: they are going to be picking up pieces of you in the next county.
+Item: 1 weapon_lightning
+Item: 2 item_health
+Item: 6 weapon_shotgun
+Kill: 6 2 11: Razor killed Lucy by MOD_LIGHTNING
+Kill: 7 5 3: Keel killed Stripe by MOD_MACHINEGUN
+Item: 7 weapon_railgun
+Item: 3 weapon_railgun
+Item: 6 weapon_shotgun
+Kill: 1022 7 19: <world> killed Keel by MOD_FALLING
+Kill: 4 0 3: TankJr killed ^1A^2n^3a^4r^5k^6i by MOD_MACHINEGUN
+Item: 2 ammo_cells
+Kill: 1 6 11: Biker killed Razor by MOD_LIGHTNING
+Item: 1 weapon_railgun
+Item: 1 weapon_plasmagun
+say: Razor: Wow, was that the new and improved Lightning Gun?
+Razor^7: Wow, was that the new and improved Lightning Gun?
+Item: 7 weapon_rocketlauncher
+Item: 4 weapon_shotgun
+Item: 6 item_armor_body
+Kill: 1 4 8: Biker killed TankJr by MOD_PLASMA
+Item: 7 item_armor_combat
+Kill: 1022 1 22: <world> killed Biker by MOD_TRIGGER_HURT
+Item: 3 weapon_shotgun
+Item: 1 weapon_plasmagun
+Item: 3 weapon_shotgun
+Kill: 3 0 10: Patriot killed ^1A^2n^3a^4r^5k^6i by MOD_RAILGUN
+Kill: 6 4 3: Razor killed TankJr by MOD_MACHINEGUN
+Item: 6 item_health
+Item: 5 weapon_lightning
+Kill: 6 3 3: Razor killed Patriot by MOD_MACHINEGUN
+Kill: 5 2 11: Stripe killed Lucy by MOD_LIGHTNING
+Item: 6 weapon_railgun
+Item: 5 weapon_shotgun
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+say: Lucy: Can you find anyone else to hammer on?
+Lucy^7: Can you find anyone else to hammer on?
+Item: 3 item_armor_shard
+Item: 7 weapon_railgun
+Kill: 5 6 11: Stripe killed Razor by MOD_LIGHTNING
+Kill: 2 4 3: Lucy killed TankJr by MOD_MACHINEGUN
+Item: 3 ammo_cells
+Item: 5 weapon_railgun
+Kill: 1 5 9: Biker killed Stripe by MOD_PLASMA_SPLASH
+say: TankJr: A fluke. Had to be. Won't happen again.
+TankJr^7: A fluke. Had to be. Won't happen again.
+Item: 0 item_health_large
+Kill: 7 0 10: Keel killed ^1A^2n^3a^4r^5k^6i by MOD_RAILGUN
+Item: 1 weapon_lightning
+Item: 4 ammo_rockets
+Item: 4 ammo_rockets
+Item: 4 item_armor_combat
+say: ^1A^2n^3a^4r^5k^6i: Now there is one happy camper.
+^1A^2n^3a^4r^5k^6i^7: Now there is one happy camper.
+Kill: 1 2 11: Biker killed Lucy by MOD_LIGHTNING
+Item: 0 ammo_bullets
+Item: 4 ammo_rockets
+Kill: 1 3 11: Biker killed Patriot by MOD_LIGHTNING
+Item: 1 item_health_large
+Item: 2 ammo_lightning
+Kill: 1 5 11: Biker killed Stripe by MOD_LIGHTNING
+Item: 7 ammo_slugs
+say: Patriot: You did well, biker. I would have offered you eternal life, alas!
+Patriot^7: You did well, biker. I would have offered you eternal life, alas!
+Item: 0 weapon_railgun
+Item: 2 weapon_rocketlauncher
+Kill: 7 1 10: Keel killed Biker by MOD_RAILGUN
+Item: 4 weapon_lightning
+Item: 2 item_armor_combat
+say: Stripe: My secret of life is plenty of salami and ichor.
+Stripe^7: My secret of life is plenty of salami and ichor.
+Kill: 1022 7 22: <world> killed Keel by MOD_TRIGGER_HURT
+Kill: 0 3 10: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_RAILGUN
+Item: 6 weapon_lightning
+Item: 5 weapon_shotgun
+Item: 6 item_armor_combat
+Item: 5 ammo_lightning
+Item: 5 ammo_slugs
+say: Keel: I am my own worst enemy.
+Keel^7: I am my own worst enemy.
+Item: 2 ammo_bullets
+Kill: 6 4 11: Razor killed TankJr by MOD_LIGHTNING
+Item: 1 item_health_large
+Item: 5 item_armor_shard
+Item: 5 item_armor_shard
+say: Razor: I don't think you are your own worst enemy.. Not that what I think matters.
+Razor^7: I don't think you are your own worst enemy.. Not that what I think matters.
+Item: 5 item_health_large
+Item: 0 weapon_lightning
+Kill: 2 7 6: Lucy killed Keel by MOD_ROCKET
+Kill: 3 0 3: Patriot killed ^1A^2n^3a^4r^5k^6i by MOD_MACHINEGUN
+Item: 3 weapon_railgun
+Kill: 1 5 3: Biker killed Stripe by MOD_MACHINEGUN
+say: Stripe: you don't go messing with Stripe!
+Stripe^7: you don't go messing with Stripe!
+Item: 7 ammo_shells
+Item: 7 ammo_bullets
+Item: 3 weapon_shotgun
+Kill: 6 3 11: Razor killed Patriot by MOD_LIGHTNING
+Item: 6 weapon_railgun
+Item: 4 ammo_bullets
+Item: 4 ammo_bullets
+Item: 3 item_armor_body
+Kill: 1 2 3: Biker killed Lucy by MOD_MACHINEGUN
+Item: 6 weapon_rocketlauncher
+Item: 6 item_health
+Item: 6 item_health
+Item: 3 item_quad
+Kill: 6 7 6: Razor killed Keel by MOD_ROCKET
+Kill: 6 6 7: Razor killed Razor by MOD_ROCKET_SPLASH
+Item: 4 weapon_shotgun
+Kill: 1 4 3: Biker killed TankJr by MOD_MACHINEGUN
+Item: 3 ammo_bullets
+Item: 2 weapon_rocketlauncher
+say: Razor: I did that on purpose.
+Razor^7: I did that on purpose.
+Item: 0 weapon_rocketlauncher
+Item: 3 ammo_cells
+say: TankJr: Biological units can't compete with Ironsides.
+TankJr^7: Biological units can't compete with Ironsides.
+Kill: 0 1 6: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_ROCKET
+Item: 7 weapon_shotgun
+Item: 3 weapon_shotgun
+say: Biker: I'm keeping track of these cheap shots for later.
+Biker^7: I'm keeping track of these cheap shots for later.
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Kill: 2 4 6: Lucy killed TankJr by MOD_ROCKET
+Item: 7 item_armor_shard
+Item: 0 weapon_shotgun
+Item: 5 weapon_shotgun
+Item: 2 item_health_large
+Item: 1 item_health_large
+Kill: 5 6 1: Stripe killed Razor by MOD_SHOTGUN
+Item: 4 ammo_bullets
+Kill: 0 5 7: ^1A^2n^3a^4r^5k^6i killed Stripe by MOD_ROCKET_SPLASH
+Item: 3 item_health_large
+Item: 4 ammo_cells
+Kill: 0 1 7: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_ROCKET_SPLASH
+Kill: 3 7 1: Patriot killed Keel by MOD_SHOTGUN
+Item: 0 weapon_shotgun
+Kill: 2 0 6: Lucy killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET
+Item: 5 weapon_shotgun
+Item: 3 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+say: ^1A^2n^3a^4r^5k^6i: Nice shot, PC Junior. What's that, lucy, like a Y1K thing?
+^1A^2n^3a^4r^5k^6i^7: Nice shot, PC Junior. What's that, lucy, like a Y1K thing?
+Kill: 1 4 3: Biker killed TankJr by MOD_MACHINEGUN
+Item: 3 ammo_slugs
+Item: 0 ammo_lightning
+Item: 7 ammo_bullets
+Kill: 2 1 7: Lucy killed Biker by MOD_ROCKET_SPLASH
+Item: 0 weapon_rocketlauncher
+Kill: 5 2 1: Stripe killed Lucy by MOD_SHOTGUN
+Item: 6 weapon_lightning
+say: Lucy: Zzzzzzzzzzzz
+Lucy^7: Zzzzzzzzzzzz
+Item: 7 weapon_railgun
+Item: 6 item_armor_combat
+Kill: 3 5 1: Patriot killed Stripe by MOD_SHOTGUN
+Item: 4 item_armor_combat
+Item: 2 item_armor_body
+say: Stripe: Just get my name right on the tombstone, miserable excuse.
+Stripe^7: Just get my name right on the tombstone, miserable excuse.
+Kill: 3 6 1: Patriot killed Razor by MOD_SHOTGUN
+Item: 4 ammo_bullets
+Item: 3 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 3 weapon_lightning
+Item: 7 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+say: TankJr: Excuses, excuses ...
+TankJr^7: Excuses, excuses ...
+Kill: 0 5 7: ^1A^2n^3a^4r^5k^6i killed Stripe by MOD_ROCKET_SPLASH
+Kill: 1022 7 22: <world> killed Keel by MOD_TRIGGER_HURT
+Kill: 1 4 3: Biker killed TankJr by MOD_MACHINEGUN
+Item: 1 item_health_large
+Kill: 6 3 3: Razor killed Patriot by MOD_MACHINEGUN
+say: Keel: I'm my own worst enemy.
+Keel^7: I'm my own worst enemy.
+Item: 2 weapon_lightning
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 4 item_armor_shard
+Item: 4 item_armor_shard
+Item: 7 weapon_rocketlauncher
+Item: 6 weapon_shotgun
+Kill: 2 1 11: Lucy killed Biker by MOD_LIGHTNING
+Item: 0 weapon_rocketlauncher
+Item: 4 weapon_shotgun
+Kill: 5 6 3: Stripe killed Razor by MOD_MACHINEGUN
+Item: 5 item_health
+Item: 4 ammo_bfg
+Item: 5 weapon_shotgun
+say: Razor: Wow, was that the new and improved Machinegun?
+Razor^7: Wow, was that the new and improved Machinegun?
+Kill: 0 3 7: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_ROCKET_SPLASH
+say: Patriot: You did well, anarki. I would have offered you eternal life, alas!
+Patriot^7: You did well, anarki. I would have offered you eternal life, alas!
+Item: 1 item_health_large
+Kill: 4 1 1: TankJr killed Biker by MOD_SHOTGUN
+Kill: 0 0 7: ^1A^2n^3a^4r^5k^6i killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Item: 3 weapon_shotgun
+Kill: 2 4 11: Lucy killed TankJr by MOD_LIGHTNING
+say: Biker: You just stepped on the highway to hell, vidiot.
+Biker^7: You just stepped on the highway to hell, vidiot.
+Item: 2 weapon_rocketlauncher
+Kill: 5 2 1: Stripe killed Lucy by MOD_SHOTGUN
+Item: 7 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 1 weapon_shotgun
+Item: 0 weapon_rocketlauncher
+say: TankJr: I can be repaired. Can ya, little squishy rear feeder?.
+TankJr^7: I can be repaired. Can ya, little squishy rear feeder?.
+Item: 4 item_armor_shard
+Kill: 3 5 1: Patriot killed Stripe by MOD_SHOTGUN
+Kill: 1 6 1: Biker killed Razor by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Kill: 7 1 6: Keel killed Biker by MOD_ROCKET
+Kill: 0 3 7: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_ROCKET_SPLASH
+Item: 4 weapon_shotgun
+say: Stripe: That rocked Flaghead!
+Stripe^7: That rocked Flaghead!
+Item: 3 weapon_lightning
+Kill: 0 2 6: ^1A^2n^3a^4r^5k^6i killed Lucy by MOD_ROCKET
+Item: 0 weapon_shotgun
+Item: 0 item_armor_combat
+Kill: 0 6 6: ^1A^2n^3a^4r^5k^6i killed Razor by MOD_ROCKET
+Item: 7 weapon_shotgun
+Item: 2 weapon_rocketlauncher
+Item: 3 weapon_shotgun
+Item: 7 item_health_large
+Item: 6 ammo_shells
+Item: 6 ammo_bullets
+Item: 4 ammo_bullets
+Item: 3 item_health
+Kill: 7 1 1: Keel killed Biker by MOD_SHOTGUN
+Kill: 4 5 1: TankJr killed Stripe by MOD_SHOTGUN
+Kill: 7 0 1: Keel killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 4 weapon_shotgun
+Item: 6 ammo_slugs
+Kill: 3 7 11: Patriot killed Keel by MOD_LIGHTNING
+Kill: 4 3 1: TankJr killed Patriot by MOD_SHOTGUN
+Item: 4 weapon_lightning
+Item: 0 ammo_lightning
+Item: 1 item_armor_body
+Item: 4 weapon_shotgun
+Item: 0 weapon_rocketlauncher
+Item: 1 ammo_rockets
+Item: 1 ammo_shells
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 1 weapon_plasmagun
+Kill: 6 7 3: Razor killed Keel by MOD_MACHINEGUN
+Item: 3 weapon_shotgun
+Kill: 5 2 3: Stripe killed Lucy by MOD_MACHINEGUN
+Item: 5 weapon_rocketlauncher
+Kill: 5 4 6: Stripe killed TankJr by MOD_ROCKET
+Kill: 5 5 7: Stripe killed Stripe by MOD_ROCKET_SPLASH
+Item: 7 item_armor_combat
+Item: 6 ammo_bullets
+Item: 6 weapon_rocketlauncher
+Kill: 0 6 6: ^1A^2n^3a^4r^5k^6i killed Razor by MOD_ROCKET
+Item: 7 weapon_shotgun
+say: Razor: Okay, so I can't beat you with one hand tied behind my back, anarki.
+Razor^7: Okay, so I can't beat you with one hand tied behind my back, anarki.
+Item: 0 item_health_large
+Item: 6 item_armor_shard
+Kill: 1 2 8: Biker killed Lucy by MOD_PLASMA
+Kill: 3 0 1: Patriot killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 6 weapon_shotgun
+Item: 3 weapon_rocketlauncher
+say: Lucy: Are you wearing your rabbit's foot AND your lucky underwear, biker?
+Lucy^7: Are you wearing your rabbit's foot AND your lucky underwear, biker?
+Kill: 4 5 3: TankJr killed Stripe by MOD_MACHINEGUN
+say: ^1A^2n^3a^4r^5k^6i: You must have, like, gone to church this morning, right patriot?
+^1A^2n^3a^4r^5k^6i^7: You must have, like, gone to church this morning, right patriot?
+Item: 6 ammo_bfg
+Kill: 4 3 3: TankJr killed Patriot by MOD_MACHINEGUN
+Kill: 7 1 1: Keel killed Biker by MOD_SHOTGUN
+say: Stripe: Just get my name right on the tombstone, no-account.
+Stripe^7: Just get my name right on the tombstone, no-account.
+Item: 4 weapon_rocketlauncher
+Item: 6 item_armor_combat
+Item: 3 weapon_shotgun
+Item: 1 weapon_rocketlauncher
+Kill: 6 7 1: Razor killed Keel by MOD_SHOTGUN
+Kill: 4 5 7: TankJr killed Stripe by MOD_ROCKET_SPLASH
+Item: 7 weapon_lightning
+Item: 0 weapon_plasmagun
+Kill: 1 1 7: Biker killed Biker by MOD_ROCKET_SPLASH
+Item: 4 weapon_railgun
+Item: 3 weapon_rocketlauncher
+Kill: 6 2 1: Razor killed Lucy by MOD_SHOTGUN
+Kill: 4 6 7: TankJr killed Razor by MOD_ROCKET_SPLASH
+Kill: 4 4 7: TankJr killed TankJr by MOD_ROCKET_SPLASH
+Item: 3 item_health_large
+Item: 5 ammo_cells
+Item: 1 item_armor_body
+Item: 3 weapon_shotgun
+say: TankJr: WARNING: Targetting system malfunction.
+TankJr^7: WARNING: Targetting system malfunction.
+Item: 2 weapon_rocketlauncher
+Item: 7 weapon_rocketlauncher
+Kill: 7 3 6: Keel killed Patriot by MOD_ROCKET
+Kill: 2 4 6: Lucy killed TankJr by MOD_ROCKET
+Kill: 1 5 3: Biker killed Stripe by MOD_MACHINEGUN
+Item: 7 weapon_rocketlauncher
+Item: 7 weapon_shotgun
+say: Patriot: I am learning your tricks, keel.
+Patriot^7: I am learning your tricks, keel.
+Item: 5 ammo_bullets
+Item: 5 ammo_bullets
+Item: 0 item_health_large
+Kill: 6 7 3: Razor killed Keel by MOD_MACHINEGUN
+say: Keel: Anybody got an oil can?
+Keel^7: Anybody got an oil can?
+Item: 3 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 5 weapon_shotgun
+Item: 2 weapon_lightning
+Kill: 6 2 6: Razor killed Lucy by MOD_ROCKET
+Kill: 4 1 3: TankJr killed Biker by MOD_MACHINEGUN
+Item: 6 ammo_bullets
+Item: 7 weapon_shotgun
+Item: 0 weapon_rocketlauncher
+Kill: 6 0 7: Razor killed ^1A^2n^3a^4r^5k^6i by MOD_ROCKET_SPLASH
+Item: 6 weapon_plasmagun
+say: Biker: I'm not impressed, tankjr.
+Biker^7: I'm not impressed, tankjr.
+Kill: 1 2 3: Biker killed Lucy by MOD_MACHINEGUN
+Item: 6 weapon_railgun
+Kill: 6 3 7: Razor killed Patriot by MOD_ROCKET_SPLASH
+Item: 4 weapon_rocketlauncher
+Kill: 6 4 6: Razor killed TankJr by MOD_ROCKET
+Item: 6 weapon_rocketlauncher
+Kill: 1 5 3: Biker killed Stripe by MOD_MACHINEGUN
+Item: 1 weapon_shotgun
+Kill: 6 1 7: Razor killed Biker by MOD_ROCKET_SPLASH
+Kill: 0 7 3: ^1A^2n^3a^4r^5k^6i killed Keel by MOD_MACHINEGUN
+Item: 0 weapon_shotgun
+Item: 5 item_armor_combat
+Kill: 0 6 1: ^1A^2n^3a^4r^5k^6i killed Razor by MOD_SHOTGUN
+Item: 0 weapon_rocketlauncher
+Kill: 2 0 3: Lucy killed ^1A^2n^3a^4r^5k^6i by MOD_MACHINEGUN
+Item: 2 ammo_bullets
+Kill: 1 4 3: Biker killed TankJr by MOD_MACHINEGUN
+Item: 5 weapon_shotgun
+Item: 6 weapon_shotgun
+Item: 2 item_health_large
+Kill: 3 1 3: Patriot killed Biker by MOD_MACHINEGUN
+Kill: 2 3 3: Lucy killed Patriot by MOD_MACHINEGUN
+Item: 4 weapon_shotgun
+Item: 6 item_armor_combat
+Kill: 4 2 1: TankJr killed Lucy by MOD_SHOTGUN
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Item: 3 item_armor_shard
+Kill: 6 0 1: Razor killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 1 weapon_plasmagun
+Item: 3 weapon_shotgun
+Item: 7 weapon_shotgun
+Item: 2 item_armor_body
+say: ^1A^2n^3a^4r^5k^6i: Bow to the razor d00d, king of the tube!
+^1A^2n^3a^4r^5k^6i^7: Bow to the razor d00d, king of the tube!
+Kill: 5 6 1: Stripe killed Razor by MOD_SHOTGUN
+Item: 7 weapon_shotgun
+Item: 3 ammo_bfg
+Item: 2 item_quad
+say: Razor: Nice shootin' stripe!
+Razor^7: Nice shootin' stripe!
+Item: 4 weapon_lightning
+Item: 6 ammo_shells
+Item: 6 ammo_bullets
+Item: 7 weapon_railgun
+Item: 2 ammo_shells
+Item: 2 ammo_slugs
+Item: 5 weapon_rocketlauncher
+Item: 6 ammo_slugs
+Item: 2 weapon_plasmagun
+Item: 4 ammo_cells
+Item: 6 weapon_shotgun
+Item: 4 ammo_cells
+Kill: 0 3 3: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_MACHINEGUN
+say: Patriot: You did well, anarki. I would have offered you eternal life, alas!
+Patriot^7: You did well, anarki. I would have offered you eternal life, alas!
+Item: 7 item_health_large
+Kill: 5 7 6: Stripe killed Keel by MOD_ROCKET
+Item: 0 weapon_shotgun
+Item: 3 weapon_shotgun
+Kill: 2 1 8: Lucy killed Biker by MOD_PLASMA
+Item: 2 weapon_plasmagun
+Item: 0 weapon_railgun
+Item: 7 weapon_lightning
+say: Stripe: Let's hope you never go to prison.
+Stripe^7: Let's hope you never go to prison.
+Item: 5 weapon_railgun
+say: Biker: Well, ain't lucy a hero? Come and get your special prize.
+Biker^7: Well, ain't lucy a hero? Come and get your special prize.
+Kill: 2 4 8: Lucy killed TankJr by MOD_PLASMA
+Item: 0 ammo_bullets
+say: TankJr: Biological units can not compete with Tankjr.
+TankJr^7: Biological units can not compete with Tankjr.
+Kill: 6 0 1: Razor killed ^1A^2n^3a^4r^5k^6i by MOD_SHOTGUN
+Item: 7 weapon_lightning
+Item: 3 weapon_railgun
+Kill: 1 3 3: Biker killed Patriot by MOD_MACHINEGUN
+Kill: 2 7 8: Lucy killed Keel by MOD_PLASMA
+Kill: 5 6 7: Stripe killed Razor by MOD_ROCKET_SPLASH
+Item: 1 weapon_shotgun
+Item: 1 weapon_shotgun
+Kill: 5 1 7: Stripe killed Biker by MOD_ROCKET_SPLASH
+Item: 0 weapon_plasmagun
+say: Keel: Your mama, lucy. She as ugly as you?
+Keel^7: Your mama, lucy. She as ugly as you?
+Item: 2 weapon_lightning
+Item: 6 weapon_lightning
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 4 item_health_large
+Item: 1 ammo_cells
+Item: 7 weapon_shotgun
+Item: 1 ammo_cells
+Kill: 2 4 11: Lucy killed TankJr by MOD_LIGHTNING
+Kill: 0 3 9: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_PLASMA_SPLASH
+Item: 0 item_health_large
+Kill: 2 6 11: Lucy killed Razor by MOD_LIGHTNING
+Item: 7 weapon_lightning
+Kill: 2 7 11: Lucy killed Keel by MOD_LIGHTNING
+Item: 4 item_armor_combat
+Kill: 4 3 3: TankJr killed Patriot by MOD_MACHINEGUN
+Item: 2 weapon_shotgun
+Item: 4 weapon_shotgun
+Kill: 0 6 8: ^1A^2n^3a^4r^5k^6i killed Razor by MOD_PLASMA
+Item: 3 weapon_lightning
+Item: 4 ammo_bullets
+Kill: 7 5 3: Keel killed Stripe by MOD_MACHINEGUN
+Item: 7 weapon_railgun
+Item: 1 weapon_plasmagun
+Item: 2 weapon_lightning
+say: Razor: Okay, so I can not beat you with one hand tied behind my back, anarki.
+Razor^7: Okay, so I can not beat you with one hand tied behind my back, anarki.
+Kill: 3 2 11: Patriot killed Lucy by MOD_LIGHTNING
+Item: 3 item_armor_combat
+Item: 4 weapon_railgun
+Item: 0 item_health_large
+Item: 3 weapon_lightning
+say: Lucy: I'm sorry. I forgot to mention that I hold grudges.
+Lucy^7: I'm sorry. I forgot to mention that I hold grudges.
+Item: 2 item_armor_body
+Kill: 4 0 10: TankJr killed ^1A^2n^3a^4r^5k^6i by MOD_RAILGUN
+Item: 4 weapon_plasmagun
+Kill: 5 6 3: Stripe killed Razor by MOD_MACHINEGUN
+Kill: 1 4 8: Biker killed TankJr by MOD_PLASMA
+Item: 7 weapon_shotgun
+Item: 1 weapon_plasmagun
+Item: 7 item_health
+Item: 6 item_armor_shard
+Item: 6 item_armor_shard
+Item: 4 ammo_rockets
+Kill: 1 7 8: Biker killed Keel by MOD_PLASMA
+Item: 4 ammo_rockets
+Item: 4 item_armor_combat
+Kill: 2 5 3: Lucy killed Stripe by MOD_MACHINEGUN
+Item: 7 weapon_shotgun
+Item: 4 ammo_rockets
+say: Stripe: I'm taking off the kid gloves now, lucy!
+Stripe^7: I'm taking off the kid gloves now, lucy!
+Kill: 1022 3 22: <world> killed Patriot by MOD_TRIGGER_HURT
+Item: 2 ammo_slugs
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+say: Patriot: Wahooootie!
+Patriot^7: Wahooootie!
+Item: 7 item_armor_shard
+Kill: 1 0 8: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_PLASMA
+Item: 2 weapon_shotgun
+Kill: 6 1 3: Razor killed Biker by MOD_MACHINEGUN
+Item: 6 weapon_railgun
+Item: 2 item_health
+Item: 7 ammo_cells
+Kill: 4 2 3: TankJr killed Lucy by MOD_MACHINEGUN
+Item: 3 ammo_cells
+Kill: 7 3 1: Keel killed Patriot by MOD_SHOTGUN
+Item: 5 weapon_plasmagun
+Item: 1 ammo_lightning
+Item: 1 ammo_slugs
+Item: 6 weapon_shotgun
+Item: 1 weapon_shotgun
+say: ^1A^2n^3a^4r^5k^6i: Hey, if you rearrange the letters, this URL spells KICKBUTT.
+^1A^2n^3a^4r^5k^6i^7: Hey, if you rearrange the letters, this URL spells KICKBUTT.
+Item: 7 item_health_large
+Kill: 4 5 3: TankJr killed Stripe by MOD_MACHINEGUN
+Kill: 7 4 1: Keel killed TankJr by MOD_SHOTGUN
+Kill: 7 2 1: Keel killed Lucy by MOD_SHOTGUN
+Kill: 0 3 3: ^1A^2n^3a^4r^5k^6i killed Patriot by MOD_MACHINEGUN
+Item: 7 weapon_plasmagun
+Item: 5 item_armor_body
+Item: 0 item_health_large
+Item: 7 ammo_bullets
+Item: 7 ammo_bullets
+Item: 7 item_armor_combat
+Kill: 0 6 3: ^1A^2n^3a^4r^5k^6i killed Razor by MOD_MACHINEGUN
+Item: 0 weapon_shotgun
+Item: 4 weapon_lightning
+Kill: 5 2 3: Stripe killed Lucy by MOD_MACHINEGUN
+Item: 0 weapon_railgun
+say: Razor: Ouch!
+Razor^7: Ouch!
+Kill: 3 5 3: Patriot killed Stripe by MOD_MACHINEGUN
+Kill: 7 0 8: Keel killed ^1A^2n^3a^4r^5k^6i by MOD_PLASMA
+Item: 2 ammo_cells
+say: TankJr: ANALYSIS: Inferior ordinance.
+TankJr^7: ANALYSIS: Inferior ordinance.
+say: Stripe: Consider yourself lucky, patriot. You just offed a bonafide war hero.
+Stripe^7: Consider yourself lucky, patriot. You just offed a bonafide war hero.
+Item: 2 holdable_teleporter
+Item: 5 ammo_lightning
+Item: 7 weapon_railgun
+Kill: 7 3 10: Keel killed Patriot by MOD_RAILGUN
+Item: 4 weapon_shotgun
+Item: 5 weapon_rocketlauncher
+Item: 0 ammo_bullets
+Item: 0 ammo_bullets
+Item: 1 weapon_plasmagun
+say: Razor: You must be new here. You seem confused...
+Razor^7: You must be new here. You seem confused...
+say: Patriot: A pox on you, keel, for the foul rail raccoon that you're.
+Patriot^7: A pox on you, keel, for the foul rail raccoon that you're.
+Kill: 4 7 11: TankJr killed Keel by MOD_LIGHTNING
+Item: 4 weapon_railgun
+Kill: 1 2 8: Biker killed Lucy by MOD_PLASMA
+say: Keel: You aren't making this easy for me Stroggy-boy.
+Keel^7: You aren't making this easy for me Stroggy-boy.
+Item: 6 item_health
+Item: 0 weapon_railgun
+Item: 4 weapon_shotgun
+Kill: 5 3 6: Stripe killed Patriot by MOD_ROCKET
+Kill: 5 5 7: Stripe killed Stripe by MOD_ROCKET_SPLASH
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+Item: 7 item_armor_shard
+say: Lucy: Can you find anyone else to hammer on?
+Lucy^7: Can you find anyone else to hammer on?
+Kill: 4 6 11: TankJr killed Razor by MOD_LIGHTNING
+Item: 3 ammo_shells
+Item: 3 ammo_bullets
+Kill: 0 1 10: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_RAILGUN
+Item: 0 weapon_plasmagun
+Kill: 2 4 3: Lucy killed TankJr by MOD_MACHINEGUN
+Item: 2 weapon_lightning
+Item: 6 ammo_bfg
+Kill: 0 2 10: ^1A^2n^3a^4r^5k^6i killed Lucy by MOD_RAILGUN
+Item: 0 weapon_lightning
+Item: 1 weapon_shotgun
+Item: 0 item_health
+Kill: 5 7 3: Stripe killed Keel by MOD_MACHINEGUN
+Item: 6 item_armor_combat
+Item: 3 ammo_slugs
+Kill: 1 3 1: Biker killed Patriot by MOD_SHOTGUN
+Kill: 4 5 3: TankJr killed Stripe by MOD_MACHINEGUN
+Item: 6 weapon_rocketlauncher
+Item: 6 weapon_rocketlauncher
+Item: 3 item_armor_shard
+Kill: 6 7 7: Razor killed Keel by MOD_ROCKET_SPLASH
+Item: 1 weapon_shotgun
+Kill: 4 0 3: TankJr killed ^1A^2n^3a^4r^5k^6i by MOD_MACHINEGUN
+Item: 4 weapon_railgun
+Item: 3 weapon_shotgun
+say: ^1A^2n^3a^4r^5k^6i: Nice shot, PC Junior. What's that, tankjr, like a Y1K thing?
+^1A^2n^3a^4r^5k^6i^7: Nice shot, PC Junior. What's that, tankjr, like a Y1K thing?
+Kill: 6 5 7: Razor killed Stripe by MOD_ROCKET_SPLASH
+Kill: 1 4 1: Biker killed TankJr by MOD_SHOTGUN
+Item: 1 weapon_railgun
+Item: 6 item_health_large
+Item: 0 weapon_plasmagun
+Item: 5 item_armor_combat
+say: TankJr: you are lucky I was still hurt from yesterday's battles.
+TankJr^7: you are lucky I was still hurt from yesterday's battles.
+Item: 3 weapon_rocketlauncher
+Item: 4 ammo_rockets
+Item: 4 ammo_rockets
+Item: 5 weapon_shotgun
+Kill: 2 1 3: Lucy killed Biker by MOD_MACHINEGUN
+Item: 2 weapon_railgun
+Item: 4 item_armor_combat
+Item: 7 item_health_large
+Kill: 2 7 10: Lucy killed Keel by MOD_RAILGUN
+say: Biker: ya must be hurting after that, lucy!
+Biker^7: ya must be hurting after that, lucy!
+Item: 4 ammo_rockets
+say: Keel: Great! lucy gets lucky once and I'm the target!
+Keel^7: Great! lucy gets lucky once and I'm the target!
+Kill: 5 2 1: Stripe killed Lucy by MOD_SHOTGUN
+Item: 6 item_health_large
+Item: 1 weapon_rocketlauncher
+Item: 0 weapon_railgun
+say: Lucy: OK, stripe. You're buying the first round tonight.
+Lucy^7: OK, stripe. You're buying the first round tonight.
+Kill: 0 6 10: ^1A^2n^3a^4r^5k^6i killed Razor by MOD_RAILGUN
+Item: 4 weapon_shotgun
+Kill: 3 1 6: Patriot killed Biker by MOD_ROCKET
+Kill: 4 5 1: TankJr killed Stripe by MOD_SHOTGUN
+Item: 3 weapon_rocketlauncher
+Item: 0 item_health_large
+say: Stripe: Consider yourself lucky, tankjr. You just offed a bonafide war hero.
+Stripe^7: Consider yourself lucky, tankjr. You just offed a bonafide war hero.
+Kill: 0 7 10: ^1A^2n^3a^4r^5k^6i killed Keel by MOD_RAILGUN
+Item: 5 ammo_lightning
+Item: 0 weapon_shotgun
+Item: 6 weapon_rocketlauncher
+Item: 0 weapon_shotgun
+Kill: 1 0 3: Biker killed ^1A^2n^3a^4r^5k^6i by MOD_MACHINEGUN
+Kill: 3 4 6: Patriot killed TankJr by MOD_ROCKET
+Kill: 5 6 3: Stripe killed Razor by MOD_MACHINEGUN
+Item: 1 weapon_railgun
+Item: 5 weapon_rocketlauncher
+Kill: 7 3 3: Keel killed Patriot by MOD_MACHINEGUN
+Item: 5 item_armor_combat
+Item: 0 item_armor_shard
+Item: 0 item_armor_shard
+Item: 7 weapon_shotgun
+Item: 0 item_armor_shard
+Item: 0 item_armor_shard
+Item: 0 item_armor_shard
+Item: 7 weapon_rocketlauncher
+Item: 4 weapon_rocketlauncher
+say: Patriot: :)
+Patriot^7: :)
+Item: 3 ammo_bullets
+Item: 3 ammo_bullets
+Kill: 7 2 7: Keel killed Lucy by MOD_ROCKET_SPLASH
+Item: 0 weapon_shotgun
+Item: 0 ammo_bfg
+Kill: 7 1 6: Keel killed Biker by MOD_ROCKET
+Item: 6 weapon_shotgun
+Item: 7 weapon_railgun
+Item: 6 ammo_slugs
+Item: 4 item_health_large
+Item: 7 item_health
+Kill: 5 7 7: Stripe killed Keel by MOD_ROCKET_SPLASH
+Item: 5 item_health
+Item: 5 weapon_railgun
+Kill: 2 6 3: Lucy killed Razor by MOD_MACHINEGUN
+Item: 2 weapon_shotgun
+say: Keel: you're a testament. Courage and heart can overcome the machine.
+Keel^7: you're a testament. Courage and heart can overcome the machine.
+Kill: 2 3 1: Lucy killed Patriot by MOD_SHOTGUN
+Item: 7 ammo_shells
+Item: 2 weapon_shotgun
+Item: 7 ammo_bullets
+Kill: 2 5 1: Lucy killed Stripe by MOD_SHOTGUN
+Item: 2 weapon_rocketlauncher
+Kill: 0 1 1: ^1A^2n^3a^4r^5k^6i killed Biker by MOD_SHOTGUN
+Item: 6 weapon_shotgun
+Item: 3 weapon_plasmagun
+say: Biker: No good, yellow-bellied, weasel-faced ^1CAMPER!
+Biker^7: No good, yellow-bellied, weasel-faced ^1CAMPER!
+broadcast: print "Timelimit hit.\n"
+Exit: Timelimit hit.
+score: 35  ping: 0  client: 2 Lucy
+score: 29  ping: 0  client: 0 ^1A^2n^3a^4r^5k^6i
+score: 29  ping: 0  client: 1 Biker
+score: 26  ping: 0  client: 6 Razor
+score: 23  ping: 0  client: 4 TankJr
+score: 22  ping: 0  client: 7 Keel
+score: 20  ping: 0  client: 3 Patriot
+score: 19  ping: 0  client: 5 Stripe

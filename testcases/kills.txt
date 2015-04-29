@@ -1,0 +1,90 @@
+Kill: 0 12 3: JC killed Memex by MOD_MACHINEGUN
+Kill: 0 13 3: JC killed vinderen by MOD_MACHINEGUN
+Kill: 0 2 3: JC killed El3meNtz by MOD_MACHINEGUN
+Kill: 0 3 3: JC killed ^6Tja^2vsi by MOD_MACHINEGUN
+Kill: 0 4 3: JC killed Figaw by MOD_MACHINEGUN
+Kill: 1 13 7: von Schpandh killed vinderen by MOD_ROCKET_SPLASH
+Kill: 1 8 7: von Schpandh killed ravebhave by MOD_ROCKET_SPLASH
+Kill: 10 10 7: Illusions killed Illusions by MOD_ROCKET_SPLASH
+Kill: 10 12 8: Illusions killed Memex by MOD_PLASMA
+Kill: 10 13 8: Illusions killed vinderen by MOD_PLASMA
+Kill: 10 3 6: Illusions killed ^6Tja^2vsi by MOD_ROCKET
+Kill: 10 6 7: Illusions killed SpuZz by MOD_ROCKET_SPLASH
+Kill: 10 8 3: Illusions killed ravebhave by MOD_MACHINEGUN
+Kill: 10 9 3: Illusions killed hardie by MOD_MACHINEGUN
+Kill: 1022 1 22: <world> killed von Schpandh by MOD_TRIGGER_HURT
+Kill: 1022 11 22: <world> killed jonathan store haj by MOD_TRIGGER_HURT
+Kill: 1022 3 22: <world> killed ^6Tja^2vsi by MOD_TRIGGER_HURT
+Kill: 1022 4 22: <world> killed Figaw by MOD_TRIGGER_HURT
+Kill: 1022 6 22: <world> killed SpuZz by MOD_TRIGGER_HURT
+Kill: 1022 7 22: <world> killed tue by MOD_TRIGGER_HURT
+Kill: 1022 8 19: <world> killed ravebhave by MOD_FALLING
+Kill: 11 12 1: jonathan store haj killed Memex by MOD_SHOTGUN
+Kill: 11 14 3: jonathan store haj killed #firecrotch by MOD_MACHINEGUN
+Kill: 11 5 3: jonathan store haj killed Freksen by MOD_MACHINEGUN
+Kill: 12 1 2: Memex killed von Schpandh by MOD_GAUNTLET
+Kill: 12 10 3: Memex killed Illusions by MOD_MACHINEGUN
+Kill: 12 11 8: Memex killed jonathan store haj by MOD_PLASMA
+Kill: 12 14 2: Memex killed #firecrotch by MOD_GAUNTLET
+Kill: 12 6 8: Memex killed SpuZz by MOD_PLASMA
+Kill: 12 7 3: Memex killed tue by MOD_MACHINEGUN
+Kill: 12 9 1: Memex killed hardie by MOD_SHOTGUN
+Kill: 12 9 2: Memex killed hardie by MOD_GAUNTLET
+Kill: 13 12 2: vinderen killed Memex by MOD_GAUNTLET
+Kill: 13 12 6: vinderen killed Memex by MOD_ROCKET
+Kill: 13 3 2: vinderen killed ^6Tja^2vsi by MOD_GAUNTLET
+Kill: 13 5 3: vinderen killed Freksen by MOD_MACHINEGUN
+Kill: 13 5 6: vinderen killed Freksen by MOD_ROCKET
+Kill: 13 7 3: vinderen killed tue by MOD_MACHINEGUN
+Kill: 13 9 10: vinderen killed hardie by MOD_RAILGUN
+Kill: 13 9 3: vinderen killed hardie by MOD_MACHINEGUN
+Kill: 14 5 3: #firecrotch killed Freksen by MOD_MACHINEGUN
+Kill: 2 7 3: El3meNtz killed tue by MOD_MACHINEGUN
+Kill: 3 1 7: ^6Tja^2vsi killed von Schpandh by MOD_ROCKET_SPLASH
+Kill: 3 10 6: ^6Tja^2vsi killed Illusions by MOD_ROCKET
+Kill: 3 12 10: ^6Tja^2vsi killed Memex by MOD_RAILGUN
+Kill: 3 4 10: ^6Tja^2vsi killed Figaw by MOD_RAILGUN
+Kill: 3 5 3: ^6Tja^2vsi killed Freksen by MOD_MACHINEGUN
+Kill: 3 6 3: ^6Tja^2vsi killed SpuZz by MOD_MACHINEGUN
+Kill: 3 7 10: ^6Tja^2vsi killed tue by MOD_RAILGUN
+Kill: 3 7 8: ^6Tja^2vsi killed tue by MOD_PLASMA
+Kill: 3 8 10: ^6Tja^2vsi killed ravebhave by MOD_RAILGUN
+Kill: 4 0 3: Figaw killed JC by MOD_MACHINEGUN
+Kill: 4 1 2: Figaw killed von Schpandh by MOD_GAUNTLET
+Kill: 4 10 3: Figaw killed Illusions by MOD_MACHINEGUN
+Kill: 4 2 3: Figaw killed El3meNtz by MOD_MACHINEGUN
+Kill: 4 3 3: Figaw killed ^6Tja^2vsi by MOD_MACHINEGUN
+Kill: 4 5 3: Figaw killed Freksen by MOD_MACHINEGUN
+Kill: 4 6 3: Figaw killed SpuZz by MOD_MACHINEGUN
+Kill: 4 8 1: Figaw killed ravebhave by MOD_SHOTGUN
+Kill: 4 8 3: Figaw killed ravebhave by MOD_MACHINEGUN
+Kill: 4 9 7: Figaw killed hardie by MOD_ROCKET_SPLASH
+Kill: 5 1 3: Freksen killed von Schpandh by MOD_MACHINEGUN
+Kill: 5 1 6: Freksen killed von Schpandh by MOD_ROCKET
+Kill: 5 11 7: Freksen killed jonathan store haj by MOD_ROCKET_SPLASH
+Kill: 5 3 3: Freksen killed ^6Tja^2vsi by MOD_MACHINEGUN
+Kill: 5 4 3: Freksen killed Figaw by MOD_MACHINEGUN
+Kill: 5 7 3: Freksen killed tue by MOD_MACHINEGUN
+Kill: 5 9 3: Freksen killed hardie by MOD_MACHINEGUN
+Kill: 5 9 6: Freksen killed hardie by MOD_ROCKET
+Kill: 6 0 7: SpuZz killed JC by MOD_ROCKET_SPLASH
+Kill: 6 10 10: SpuZz killed Illusions by MOD_RAILGUN
+Kill: 6 13 3: SpuZz killed vinderen by MOD_MACHINEGUN
+Kill: 6 3 3: SpuZz killed ^6Tja^2vsi by MOD_MACHINEGUN
+Kill: 6 4 10: SpuZz killed Figaw by MOD_RAILGUN
+Kill: 6 5 3: SpuZz killed Freksen by MOD_MACHINEGUN
+Kill: 6 9 10: SpuZz killed hardie by MOD_RAILGUN
+Kill: 7 0 3: tue killed JC by MOD_MACHINEGUN
+Kill: 7 10 7: tue killed Illusions by MOD_ROCKET_SPLASH
+Kill: 7 12 10: tue killed Memex by MOD_RAILGUN
+Kill: 7 12 3: tue killed Memex by MOD_MACHINEGUN
+Kill: 7 6 7: tue killed SpuZz by MOD_ROCKET_SPLASH
+Kill: 8 0 3: ravebhave killed JC by MOD_MACHINEGUN
+Kill: 8 1 7: ravebhave killed von Schpandh by MOD_ROCKET_SPLASH
+Kill: 8 11 3: ravebhave killed jonathan store haj by MOD_MACHINEGUN
+Kill: 8 13 3: ravebhave killed vinderen by MOD_MACHINEGUN
+Kill: 8 9 3: ravebhave killed hardie by MOD_MACHINEGUN
+Kill: 9 10 6: hardie killed Illusions by MOD_ROCKET
+Kill: 9 4 3: hardie killed Figaw by MOD_MACHINEGUN
+Kill: 9 5 3: hardie killed Freksen by MOD_MACHINEGUN
+Kill: 1 14 6: von Schpandh killed #firecrotch by MOD_ROCKET

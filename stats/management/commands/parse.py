@@ -16,6 +16,12 @@ class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('file', nargs='+', type=str)
 
+        parser.add_argument('--test',
+                            action='store_true',
+                            dest='test',
+                            default=False,
+                            help='Stop at the end of file instead of monitoring')
+
     def __init__(self):
         super(Command, self).__init__()
         call_command('truncate')
@@ -32,6 +38,8 @@ class Command(BaseCommand):
             previous_location = self.logfile.tell()
             line = self.logfile.readline()
             if not line:
+                if options['test']:
+                    break
                 self.logfile.seek(previous_location)
                 time.sleep(1)
             # Sometimes self.logfile.readline() retrieves a half line from the logfile and this error is fatal to the

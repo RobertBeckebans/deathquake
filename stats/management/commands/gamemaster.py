@@ -2,10 +2,12 @@ import socket
 import os
 import time
 import random
+import datetime
+import pytz
 
 from django.core.management.base import BaseCommand
 
-from stats.models import Log
+from stats.models import Log, Scoreboard
 
 # TODO: Consider moving into deathquake/settings.py
 LONG_BREAK_EACH_N_ROUND = 4
@@ -65,7 +67,18 @@ class Command(BaseCommand):
         self.map_restart()
         self.game_is_live_spam()
         self.timelimit(GAME_TIME_MINUTES)
-        time.sleep(GAME_TIME_MINUTES * 60)
+        fresh_score = False
+        while not fresh_score:
+            print("Waiting for a fresh score!")
+            if Scoreboard.objects.last():
+                now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+                last_score = Scoreboard.objects.last().created_at
+                ten_seconds = datetime.timedelta(seconds=10)
+                if (now - last_score) < ten_seconds:
+                    fresh_score = True
+            time.sleep(1)
+        print("Score found! Changing map in 10 seconds!")
+        time.sleep(10)
 
     def warmup(self):
         self.timelimit(WARMUP_TIMELIMIT)
